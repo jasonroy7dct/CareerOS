@@ -1,0 +1,37 @@
+name: Daily TPM Job Search
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Preview matches without writing to Notion'
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    # 14:00 UTC = 7:00 AM Pacific during PDT. Update to 15:00 UTC when PST is in effect.
+    - cron: '0 14 * * 1-5'
+
+permissions:
+  contents: read
+
+jobs:
+  discover-jobs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_DATA_SOURCE_ID: ${{ vars.NOTION_DATA_SOURCE_ID }}
+      MAX_NEW_JOBS: '10'
+      DRY_RUN: ${{ inputs.dry_run || 'false' }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Discover and save matching jobs
+        run: python -m src.job_search

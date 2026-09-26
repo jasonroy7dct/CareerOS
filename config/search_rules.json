@@ -1,0 +1,10 @@
+{
+  "max_new_jobs": 10,
+  "include_title_keywords": ["technical program manager", "technical program", "program manager", "platform", "infrastructure", "integrations", "developer experience", "ads", "monetization", "privacy", "data governance", "ai infrastructure"],
+  "exclude_title_keywords": ["intern", "internship", "contractor", "staffing"],
+  "location_keywords": ["remote", "united states", "usa", "california", "san francisco", "bay area", "seattle", "new york", "los angeles"],
+  "priority_keywords": {
+    "High": ["technical program manager", "platform", "infrastructure", "ads", "monetization", "integrations", "developer experience", "privacy", "data governance", "ai infrastructure"],
+    "Medium": ["program manager", "technical"]
+  }
+}
