@@ -1,3 +1,11 @@
 {
-  "companies": []
+  "companies": [
+    {"name": "OpenAI", "tier": "core_high_fit", "ats": "ashby", "board": "openai", "official_careers_url": "https://jobs.ashbyhq.com/openai"},
+    {"name": "Palantir", "tier": "large_tech", "ats": "lever", "site": "palantir", "official_careers_url": "https://jobs.lever.co/palantir"},
+    {"name": "Zoox", "tier": "large_tech", "ats": "lever", "site": "zoox", "official_careers_url": "https://jobs.lever.co/zoox"},
+    {"name": "Decagon", "tier": "growth", "ats": "ashby", "board": "decagon", "official_careers_url": "https://jobs.ashbyhq.com/decagon"},
+    {"name": "Zip", "tier": "growth", "ats": "ashby", "board": "zip", "official_careers_url": "https://jobs.ashbyhq.com/zip"},
+    {"name": "Valon", "tier": "growth", "ats": "ashby", "board": "valon", "official_careers_url": "https://jobs.ashbyhq.com/valon"},
+    {"name": "Wayve", "tier": "growth", "ats": "greenhouse", "board_token": "wayve", "official_careers_url": "https://boards.greenhouse.io/wayve"}
+  ]
 }

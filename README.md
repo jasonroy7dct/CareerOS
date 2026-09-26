@@ -1,6 +1,6 @@
 # CareerOS
 
-CareerOS is a human-in-the-loop job-opportunity pipeline for technical-program-management roles. It reads official Greenhouse and Lever public job feeds, filters matching roles, deduplicates against the Notion **TPM Application Tracker**, and creates new records with `Status = Saved`. It never submits applications or changes an existing status.
+CareerOS is a human-in-the-loop job-opportunity pipeline for technical-program-management roles. It reads official Greenhouse, Lever, and Ashby public job feeds, filters matching roles, deduplicates against the Notion **TPM Application Tracker**, and creates new records with `Status = Saved`. It never submits applications or changes an existing status.
 
 ## Setup
 
@@ -11,18 +11,17 @@ Under **Settings → Secrets and variables → Actions**, configure:
 
 Do not commit credentials.
 
-## Sources
+## Source registry
 
-Add verified official ATS sources to `config/companies.json`:
+`config/companies.json` is the source registry. Registry v1 contains verified public official-career feeds for OpenAI, Palantir, Zoox, Decagon, Zip, Valon, and Wayve. Sources are tagged `core_high_fit`, `large_tech`, or `growth` to support future ranking.
 
-```json
-{"companies":[
-  {"name":"Example Greenhouse Company","ats":"greenhouse","board_token":"example"},
-  {"name":"Example Lever Company","ats":"lever","site":"example"}
-]}
-```
+Supported ATS values:
 
-The initial source list is intentionally empty. Add verified sources before expecting new records.
+- `greenhouse`: `board_token`
+- `lever`: `site`
+- `ashby`: `board`
+
+Use only verified official ATS boards. Add sources incrementally, run a dry run, and inspect logs before enabling production writes.
 
 ## Schedule
 
