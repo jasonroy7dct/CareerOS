@@ -22,6 +22,9 @@ jobs:
     env:
       NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
       NOTION_DATA_SOURCE_ID: ${{ vars.NOTION_DATA_SOURCE_ID }}
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      NOTIFY_EMAIL: ${{ vars.NOTIFY_EMAIL }}
+      FROM_EMAIL: ${{ vars.FROM_EMAIL }}
       MAX_NEW_JOBS: '10'
       DRY_RUN: ${{ inputs.dry_run || 'false' }}
     steps:
