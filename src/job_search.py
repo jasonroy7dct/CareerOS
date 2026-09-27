@@ -12,6 +12,7 @@ from dateutil.parser import parse as parse_date
 from src.collectors.ashby import AshbySource, collect as ashby
 from src.collectors.greenhouse import GreenhouseSource, collect as greenhouse
 from src.collectors.lever import LeverSource, collect as lever
+from src.email_client import EmailClient
 from src.notion_client import NotionClient
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -74,28 +75,34 @@ def priority(job: dict[str, Any], rules: dict[str, Any]) -> str:
         return "Medium"
     return "Low"
 
-def collect(config: dict[str, Any]) -> list[dict[str, Any]]:
-    out = []
+def collect(config: dict[str, Any]) -> tuple[list[dict[str, Any]], list[str]]:
+    out, skipped = [], []
     for c in config.get("companies", []):
+        ats = c.get("ats", "").lower()
         try:
-            ats = c.get("ats", "").lower()
-            if ats == "greenhouse":
+            if ats == "greenhouse" and c.get("board_token"):
                 out += greenhouse(GreenhouseSource(c["name"], c["board_token"]))
-            elif ats == "lever":
+            elif ats == "lever" and c.get("site"):
                 out += lever(LeverSource(c["name"], c["site"]))
-            elif ats == "ashby":
+            elif ats == "ashby" and c.get("board"):
                 out += ashby(AshbySource(c["name"], c["board"]))
+            else:
+                skipped.append(c.get("name", "unknown"))
         except Exception as e:
             print(f"Collector failed for {c.get('name', 'unknown')}: {e}")
-    return out
+            skipped.append(c.get("name", "unknown"))
+    return out, skipped
 
 def main() -> None:
     rules, config, client = load("config/search_rules.json"), load("config/companies.json"), NotionClient()
     urls, triples = keys(client.existing_records())
     limit = int(os.environ.get("MAX_NEW_JOBS", rules["max_new_jobs"]))
     dry = os.environ.get("DRY_RUN", "false").lower() == "true"
+    jobs, skipped = collect(config)
+    if skipped:
+        print(f"WARNING: {len(skipped)} companies were NOT collected (missing/unrecognized ats info): {', '.join(skipped)}")
     found = []
-    for j in collect(config):
+    for j in jobs:
         j["url"], j["description"], j["posted_date"] = canon(j.get("url")), clean(j.get("description")), safe_date(j.get("posted_date"))
         triple = (norm(j.get("company")), norm(j.get("title")), norm(j.get("location")))
         if not match(j, rules) or j["url"] in urls or triple in triples:
@@ -111,6 +118,7 @@ def main() -> None:
         print(f"[{j['priority']}] {j['company']} — {j['title']} — {j['location']}")
         if not dry:
             client.create_job(j)
+    EmailClient().send_digest(found, dry_run=dry, skipped=skipped)
 
 if __name__ == "__main__":
     main()
