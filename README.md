@@ -8,8 +8,15 @@ Under **Settings → Secrets and variables → Actions**, configure:
 
 - Secret: `NOTION_TOKEN` — token from Notion **TPM Jobs Bot**.
 - Variable: `NOTION_DATA_SOURCE_ID` — `40a0bcc9-1b61-40f6-b23d-c8c83713596e`.
+- Secret: `RESEND_API_KEY` — API key from Resend **TPM Jobs Bot**.
+- Variable: `NOTIFY_EMAIL` — the address that receives the daily digest, e.g. `hsieh30636@gmail.com`.
+- Variable: `FROM_EMAIL` (optional) — defaults to `CareerOS <onboarding@resend.dev>`, which works with no domain setup but can only deliver to the Resend account owner's own address. Verify a sending domain in Resend and set this to `CareerOS <jobs@yourdomain.com>` to email other addresses.
 
 Do not commit credentials.
+
+## Email digest
+
+After each run, `src/email_client.py` sends one HTML email via Resend summarizing the jobs found (or a "no new roles today" message), in addition to the Notion rows. `dry_run=true` logs what the email would contain without sending it or writing to Notion.
 
 ## Source registry
 
