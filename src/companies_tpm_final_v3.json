@@ -1,0 +1,2407 @@
+{
+  "companies": [
+    {
+      "name": "OpenAI",
+      "universe": "core",
+      "tier": "core_high_fit",
+      "status": "active_direct",
+      "ats": "ashby",
+      "board": "openai",
+      "official_careers_url": "https://jobs.ashbyhq.com/openai"
+    },
+    {
+      "name": "Palantir",
+      "universe": "core",
+      "tier": "large_tech",
+      "status": "active_direct",
+      "ats": "lever",
+      "site": "palantir",
+      "official_careers_url": "https://jobs.lever.co/palantir"
+    },
+    {
+      "name": "Zoox",
+      "universe": "core",
+      "tier": "large_tech",
+      "status": "active_direct",
+      "ats": "lever",
+      "site": "zoox",
+      "official_careers_url": "https://jobs.lever.co/zoox"
+    },
+    {
+      "name": "Decagon",
+      "universe": "core",
+      "tier": "growth",
+      "status": "active_direct",
+      "ats": "ashby",
+      "board": "decagon",
+      "official_careers_url": "https://jobs.ashbyhq.com/decagon"
+    },
+    {
+      "name": "Zip",
+      "universe": "core",
+      "tier": "growth",
+      "status": "active_direct",
+      "ats": "ashby",
+      "board": "zip",
+      "official_careers_url": "https://jobs.ashbyhq.com/zip"
+    },
+    {
+      "name": "Valon",
+      "universe": "core",
+      "tier": "growth",
+      "status": "active_direct",
+      "ats": "ashby",
+      "board": "valon",
+      "official_careers_url": "https://jobs.ashbyhq.com/valon"
+    },
+    {
+      "name": "Wayve",
+      "universe": "core",
+      "tier": "growth",
+      "status": "active_direct",
+      "ats": "greenhouse",
+      "board_token": "wayve",
+      "official_careers_url": "https://boards.greenhouse.io/wayve"
+    },
+    {
+      "name": "Moloco",
+      "universe": "core",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Harvey",
+      "universe": "core",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Surge AI",
+      "universe": "core",
+      "tier": "ai_data",
+      "status": "pending_collector"
+    },
+    {
+      "name": "FAR.AI",
+      "universe": "core",
+      "tier": "ai_safety",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Whatnot",
+      "universe": "core",
+      "tier": "marketplace",
+      "status": "pending_collector"
+    },
+    {
+      "name": "LiveRamp",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Nexxen",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Yahoo Ads",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "MNTN",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "InMobi",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Vungle",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Unity Ads",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "TripleLift",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Yieldmo",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Digital Turbine",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Kevel",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Liftoff",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "DIRECTV Advertising",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "LG Ad Solutions",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Samsung Ads",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Scale AI",
+      "universe": "expanded",
+      "tier": "ai_data",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Hugging Face",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Weights & Biases",
+      "universe": "expanded",
+      "tier": "ai_data",
+      "status": "pending_collector"
+    },
+    {
+      "name": "LangChain",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Modal",
+      "universe": "expanded",
+      "tier": "ai_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Replicate",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Together AI",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Glean",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Pinecone",
+      "universe": "expanded",
+      "tier": "ai_data",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Cockroach Labs",
+      "universe": "expanded",
+      "tier": "data_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Elastic",
+      "universe": "expanded",
+      "tier": "data_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "MongoDB",
+      "universe": "expanded",
+      "tier": "data_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Sentry",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Grafana Labs",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Vercel",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "GitLab",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "HashiCorp",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Postman",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Temporal",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Redis",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Netskope",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Zscaler",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Lacework",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Sumo Logic",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Human Security",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "DataDome",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Transcend",
+      "universe": "expanded",
+      "tier": "privacy",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Osano",
+      "universe": "expanded",
+      "tier": "privacy",
+      "status": "pending_collector"
+    },
+    {
+      "name": "SailPoint",
+      "universe": "expanded",
+      "tier": "identity",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Auth0",
+      "universe": "expanded",
+      "tier": "identity",
+      "status": "pending_collector"
+    },
+    {
+      "name": "1Password",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Tines",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Chainguard",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Semgrep",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Securiti",
+      "universe": "expanded",
+      "tier": "privacy",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Salesforce",
+      "universe": "expanded",
+      "tier": "enterprise",
+      "status": "pending_collector"
+    },
+    {
+      "name": "ServiceNow",
+      "universe": "expanded",
+      "tier": "enterprise",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Adobe",
+      "universe": "expanded",
+      "tier": "enterprise",
+      "status": "pending_collector"
+    },
+    {
+      "name": "HubSpot",
+      "universe": "expanded",
+      "tier": "enterprise",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Atlassian",
+      "universe": "expanded",
+      "tier": "enterprise",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Miro",
+      "universe": "expanded",
+      "tier": "enterprise",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Canva",
+      "universe": "expanded",
+      "tier": "enterprise",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Asana",
+      "universe": "expanded",
+      "tier": "enterprise",
+      "status": "pending_collector"
+    },
+    {
+      "name": "monday.com",
+      "universe": "expanded",
+      "tier": "enterprise",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Carta",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Navan",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Toast",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Chime",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Affirm",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Robinhood",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Coinbase",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "PayPal",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Block",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Anthropic",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Mistral AI",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Cohere",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Stability AI",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Perplexity AI",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Adept AI",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Character.AI",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Inflection AI",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Runway",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "ElevenLabs",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Sierra",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Anysphere (Cursor)",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Cognition AI (Devin)",
+      "universe": "expanded",
+      "tier": "ai",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Databricks",
+      "universe": "expanded",
+      "tier": "ai_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Snowflake",
+      "universe": "expanded",
+      "tier": "data_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Confluent",
+      "universe": "expanded",
+      "tier": "data_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Cloudflare",
+      "universe": "expanded",
+      "tier": "cloud_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Fastly",
+      "universe": "expanded",
+      "tier": "cloud_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "DigitalOcean",
+      "universe": "expanded",
+      "tier": "cloud_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Nvidia",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "AMD",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Oscar Health",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Included Health",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Cedar",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Ro",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Hims & Hers",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Tempus AI",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Devoted Health",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Clover Health",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Zocdoc",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Nuna",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Cohere Health",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Maven Clinic",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Carbon Health",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Color Health",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Verily",
+      "universe": "expanded",
+      "tier": "healthtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Recursion Pharmaceuticals",
+      "universe": "expanded",
+      "tier": "biotech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Insitro",
+      "universe": "expanded",
+      "tier": "biotech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Benchling",
+      "universe": "expanded",
+      "tier": "biotech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Ginkgo Bioworks",
+      "universe": "expanded",
+      "tier": "biotech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "10x Genomics",
+      "universe": "expanded",
+      "tier": "biotech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Illumina",
+      "universe": "expanded",
+      "tier": "biotech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Moderna",
+      "universe": "expanded",
+      "tier": "biotech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Duolingo",
+      "universe": "expanded",
+      "tier": "edtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Coursera",
+      "universe": "expanded",
+      "tier": "edtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Udemy",
+      "universe": "expanded",
+      "tier": "edtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Chegg",
+      "universe": "expanded",
+      "tier": "edtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Age of Learning",
+      "universe": "expanded",
+      "tier": "edtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Guild Education",
+      "universe": "expanded",
+      "tier": "edtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Instructure",
+      "universe": "expanded",
+      "tier": "edtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Rippling",
+      "universe": "expanded",
+      "tier": "hr_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Deel",
+      "universe": "expanded",
+      "tier": "hr_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Gusto",
+      "universe": "expanded",
+      "tier": "hr_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Lattice",
+      "universe": "expanded",
+      "tier": "hr_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Culture Amp",
+      "universe": "expanded",
+      "tier": "hr_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Justworks",
+      "universe": "expanded",
+      "tier": "hr_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Remote.com",
+      "universe": "expanded",
+      "tier": "hr_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Papaya Global",
+      "universe": "expanded",
+      "tier": "hr_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Workday",
+      "universe": "expanded",
+      "tier": "hr_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "ADP",
+      "universe": "expanded",
+      "tier": "hr_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Lemonade",
+      "universe": "expanded",
+      "tier": "insurtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Root Insurance",
+      "universe": "expanded",
+      "tier": "insurtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Hippo Insurance",
+      "universe": "expanded",
+      "tier": "insurtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Next Insurance",
+      "universe": "expanded",
+      "tier": "insurtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Ethos",
+      "universe": "expanded",
+      "tier": "insurtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Policygenius",
+      "universe": "expanded",
+      "tier": "insurtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Opendoor",
+      "universe": "expanded",
+      "tier": "proptech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Compass",
+      "universe": "expanded",
+      "tier": "proptech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Zillow",
+      "universe": "expanded",
+      "tier": "proptech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Redfin",
+      "universe": "expanded",
+      "tier": "proptech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Divvy Homes",
+      "universe": "expanded",
+      "tier": "proptech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Better.com",
+      "universe": "expanded",
+      "tier": "proptech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Flyhomes",
+      "universe": "expanded",
+      "tier": "proptech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Flexport",
+      "universe": "expanded",
+      "tier": "logistics",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Convoy",
+      "universe": "expanded",
+      "tier": "logistics",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Samsara",
+      "universe": "expanded",
+      "tier": "logistics",
+      "status": "pending_collector"
+    },
+    {
+      "name": "project44",
+      "universe": "expanded",
+      "tier": "logistics",
+      "status": "pending_collector"
+    },
+    {
+      "name": "ShipBob",
+      "universe": "expanded",
+      "tier": "logistics",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Motive (KeepTruckin)",
+      "universe": "expanded",
+      "tier": "logistics",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Riot Games",
+      "universe": "expanded",
+      "tier": "gaming",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Roblox",
+      "universe": "expanded",
+      "tier": "gaming",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Epic Games",
+      "universe": "expanded",
+      "tier": "gaming",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Unity Technologies",
+      "universe": "expanded",
+      "tier": "gaming",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Discord",
+      "universe": "expanded",
+      "tier": "gaming",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Niantic",
+      "universe": "expanded",
+      "tier": "gaming",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Scopely",
+      "universe": "expanded",
+      "tier": "gaming",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Pinterest",
+      "universe": "expanded",
+      "tier": "social_media",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Snap Inc",
+      "universe": "expanded",
+      "tier": "social_media",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Reddit",
+      "universe": "expanded",
+      "tier": "social_media",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Bumble",
+      "universe": "expanded",
+      "tier": "social_media",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Match Group",
+      "universe": "expanded",
+      "tier": "social_media",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Waymo",
+      "universe": "expanded",
+      "tier": "robotics_av",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Cruise",
+      "universe": "expanded",
+      "tier": "robotics_av",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Aurora Innovation",
+      "universe": "expanded",
+      "tier": "robotics_av",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Nuro",
+      "universe": "expanded",
+      "tier": "robotics_av",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Boston Dynamics",
+      "universe": "expanded",
+      "tier": "robotics_av",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Figure AI",
+      "universe": "expanded",
+      "tier": "robotics_av",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Physical Intelligence",
+      "universe": "expanded",
+      "tier": "robotics_av",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Rivian",
+      "universe": "expanded",
+      "tier": "climate_energy",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Lucid Motors",
+      "universe": "expanded",
+      "tier": "climate_energy",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Sunrun",
+      "universe": "expanded",
+      "tier": "climate_energy",
+      "status": "pending_collector"
+    },
+    {
+      "name": "ChargePoint",
+      "universe": "expanded",
+      "tier": "climate_energy",
+      "status": "pending_collector"
+    },
+    {
+      "name": "QuantumScape",
+      "universe": "expanded",
+      "tier": "climate_energy",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Redwood Materials",
+      "universe": "expanded",
+      "tier": "climate_energy",
+      "status": "pending_collector"
+    },
+    {
+      "name": "SpaceX",
+      "universe": "expanded",
+      "tier": "aerospace_defense",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Anduril Industries",
+      "universe": "expanded",
+      "tier": "aerospace_defense",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Relativity Space",
+      "universe": "expanded",
+      "tier": "aerospace_defense",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Rocket Lab",
+      "universe": "expanded",
+      "tier": "aerospace_defense",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Shield AI",
+      "universe": "expanded",
+      "tier": "aerospace_defense",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Skydio",
+      "universe": "expanded",
+      "tier": "aerospace_defense",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Netflix",
+      "universe": "expanded",
+      "tier": "media_streaming",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Spotify",
+      "universe": "expanded",
+      "tier": "media_streaming",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Warner Bros Discovery",
+      "universe": "expanded",
+      "tier": "media_streaming",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Amazon",
+      "universe": "expanded",
+      "tier": "ecommerce_retail",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Shopify",
+      "universe": "expanded",
+      "tier": "ecommerce_retail",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Instacart",
+      "universe": "expanded",
+      "tier": "ecommerce_retail",
+      "status": "pending_collector"
+    },
+    {
+      "name": "DoorDash",
+      "universe": "expanded",
+      "tier": "ecommerce_retail",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Faire",
+      "universe": "expanded",
+      "tier": "ecommerce_retail",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Stitch Fix",
+      "universe": "expanded",
+      "tier": "ecommerce_retail",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Wayfair",
+      "universe": "expanded",
+      "tier": "ecommerce_retail",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Airbnb",
+      "universe": "expanded",
+      "tier": "travel_hospitality",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Booking.com",
+      "universe": "expanded",
+      "tier": "travel_hospitality",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Expedia Group",
+      "universe": "expanded",
+      "tier": "travel_hospitality",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Uber",
+      "universe": "expanded",
+      "tier": "travel_hospitality",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Lyft",
+      "universe": "expanded",
+      "tier": "travel_hospitality",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Turo",
+      "universe": "expanded",
+      "tier": "travel_hospitality",
+      "status": "pending_collector"
+    },
+    {
+      "name": "T-Mobile",
+      "universe": "expanded",
+      "tier": "telecom",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Verizon",
+      "universe": "expanded",
+      "tier": "telecom",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Indigo Ag",
+      "universe": "expanded",
+      "tier": "agtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Farmers Business Network",
+      "universe": "expanded",
+      "tier": "agtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Plenty",
+      "universe": "expanded",
+      "tier": "agtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Ironclad",
+      "universe": "expanded",
+      "tier": "legal_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Clio",
+      "universe": "expanded",
+      "tier": "legal_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "DocuSign",
+      "universe": "expanded",
+      "tier": "legal_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "LegalZoom",
+      "universe": "expanded",
+      "tier": "legal_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Braze",
+      "universe": "expanded",
+      "tier": "martech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Klaviyo",
+      "universe": "expanded",
+      "tier": "martech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Iterable",
+      "universe": "expanded",
+      "tier": "martech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Attentive",
+      "universe": "expanded",
+      "tier": "martech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Twilio Segment",
+      "universe": "expanded",
+      "tier": "martech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Intercom",
+      "universe": "expanded",
+      "tier": "cx_support",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Zendesk",
+      "universe": "expanded",
+      "tier": "cx_support",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Front",
+      "universe": "expanded",
+      "tier": "cx_support",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Gorgias",
+      "universe": "expanded",
+      "tier": "cx_support",
+      "status": "pending_collector"
+    },
+    {
+      "name": "CircleCI",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "JetBrains",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Docker",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "LaunchDarkly",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "PagerDuty",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "New Relic",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Datadog",
+      "universe": "expanded",
+      "tier": "developer_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Plaid",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Brex",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Ramp",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Mercury",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Stripe",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Wise",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Marqeta",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Klarna",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "SoFi",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Addepar",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Ripple",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Circle",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Apple",
+      "universe": "expanded",
+      "tier": "big_tech_mag7",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Microsoft",
+      "universe": "expanded",
+      "tier": "big_tech_mag7",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Alphabet (Google)",
+      "universe": "expanded",
+      "tier": "big_tech_mag7",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Meta Platforms",
+      "universe": "expanded",
+      "tier": "big_tech_mag7",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Tesla",
+      "universe": "expanded",
+      "tier": "big_tech_mag7",
+      "status": "pending_collector"
+    },
+    {
+      "name": "IBM",
+      "universe": "expanded",
+      "tier": "large_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Oracle",
+      "universe": "expanded",
+      "tier": "large_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "SAP",
+      "universe": "expanded",
+      "tier": "large_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Cisco Systems",
+      "universe": "expanded",
+      "tier": "large_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Intel",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Qualcomm",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Broadcom",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Dell Technologies",
+      "universe": "expanded",
+      "tier": "large_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "HP Inc.",
+      "universe": "expanded",
+      "tier": "large_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "VMware",
+      "universe": "expanded",
+      "tier": "large_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Intuit",
+      "universe": "expanded",
+      "tier": "large_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Autodesk",
+      "universe": "expanded",
+      "tier": "large_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Splunk",
+      "universe": "expanded",
+      "tier": "large_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "eBay",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Etsy",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Booking Holdings",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "TripAdvisor",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Yelp",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Groupon",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Chewy",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Carvana",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Peloton Interactive",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Roku",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Zoom",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Dropbox",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Box",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Okta",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Twilio",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "X (Twitter)",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "LinkedIn",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Yahoo",
+      "universe": "expanded",
+      "tier": "mid_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "CrowdStrike",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Fortinet",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Check Point Software",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "F5",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Akamai Technologies",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Juniper Networks",
+      "universe": "expanded",
+      "tier": "large_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "NetApp",
+      "universe": "expanded",
+      "tier": "data_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Pure Storage",
+      "universe": "expanded",
+      "tier": "data_infra",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Western Digital",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Seagate Technology",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Micron Technology",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Texas Instruments",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Applied Materials",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "ASML",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Lam Research",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "KLA Corporation",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Arm Holdings",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Marvell Technology",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "ON Semiconductor",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Analog Devices",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Skyworks Solutions",
+      "universe": "expanded",
+      "tier": "semiconductor",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Visa",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Mastercard",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "American Express",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Fiserv",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "FIS (Fidelity National Information Services)",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Global Payments",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "TransUnion",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Equifax",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Experian",
+      "universe": "expanded",
+      "tier": "fintech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Paychex",
+      "universe": "expanded",
+      "tier": "hr_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Dayforce (Ceridian)",
+      "universe": "expanded",
+      "tier": "hr_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Workiva",
+      "universe": "expanded",
+      "tier": "enterprise",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Zuora",
+      "universe": "expanded",
+      "tier": "enterprise",
+      "status": "pending_collector"
+    },
+    {
+      "name": "JPMorgan Chase",
+      "universe": "expanded",
+      "tier": "bank_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Goldman Sachs",
+      "universe": "expanded",
+      "tier": "bank_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Capital One",
+      "universe": "expanded",
+      "tier": "bank_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Morgan Stanley",
+      "universe": "expanded",
+      "tier": "bank_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Charles Schwab",
+      "universe": "expanded",
+      "tier": "bank_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Fidelity Investments",
+      "universe": "expanded",
+      "tier": "bank_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "USAA",
+      "universe": "expanded",
+      "tier": "bank_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Wells Fargo",
+      "universe": "expanded",
+      "tier": "bank_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Walmart Global Tech",
+      "universe": "expanded",
+      "tier": "retail_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Target",
+      "universe": "expanded",
+      "tier": "retail_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Costco",
+      "universe": "expanded",
+      "tier": "retail_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Home Depot",
+      "universe": "expanded",
+      "tier": "retail_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Lowe's",
+      "universe": "expanded",
+      "tier": "retail_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Best Buy",
+      "universe": "expanded",
+      "tier": "retail_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "UnitedHealth Group / Optum",
+      "universe": "expanded",
+      "tier": "health_insurance",
+      "status": "pending_collector"
+    },
+    {
+      "name": "CVS Health / Aetna",
+      "universe": "expanded",
+      "tier": "health_insurance",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Cigna",
+      "universe": "expanded",
+      "tier": "health_insurance",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Humana",
+      "universe": "expanded",
+      "tier": "health_insurance",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Elevance Health",
+      "universe": "expanded",
+      "tier": "health_insurance",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Delta Air Lines",
+      "universe": "expanded",
+      "tier": "airline_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "United Airlines",
+      "universe": "expanded",
+      "tier": "airline_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "American Airlines",
+      "universe": "expanded",
+      "tier": "airline_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Southwest Airlines",
+      "universe": "expanded",
+      "tier": "airline_tech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "AT&T",
+      "universe": "expanded",
+      "tier": "telecom",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Comcast / NBCUniversal",
+      "universe": "expanded",
+      "tier": "telecom",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Charter Communications",
+      "universe": "expanded",
+      "tier": "telecom",
+      "status": "pending_collector"
+    },
+    {
+      "name": "The Walt Disney Company",
+      "universe": "expanded",
+      "tier": "media_streaming",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Paramount",
+      "universe": "expanded",
+      "tier": "media_streaming",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Sony",
+      "universe": "expanded",
+      "tier": "media_streaming",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Lockheed Martin",
+      "universe": "expanded",
+      "tier": "defense",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Northrop Grumman",
+      "universe": "expanded",
+      "tier": "defense",
+      "status": "pending_collector"
+    },
+    {
+      "name": "RTX (Raytheon)",
+      "universe": "expanded",
+      "tier": "defense",
+      "status": "pending_collector"
+    },
+    {
+      "name": "L3Harris",
+      "universe": "expanded",
+      "tier": "defense",
+      "status": "pending_collector"
+    },
+    {
+      "name": "General Dynamics",
+      "universe": "expanded",
+      "tier": "defense",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Booz Allen Hamilton",
+      "universe": "expanded",
+      "tier": "defense",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Ford",
+      "universe": "expanded",
+      "tier": "automotive",
+      "status": "pending_collector"
+    },
+    {
+      "name": "General Motors",
+      "universe": "expanded",
+      "tier": "automotive",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Stellantis",
+      "universe": "expanded",
+      "tier": "automotive",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Wiz",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "SentinelOne",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Rapid7",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Qualys",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Tenable",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Varonis",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Proofpoint",
+      "universe": "expanded",
+      "tier": "security",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Samsung Electronics",
+      "universe": "expanded",
+      "tier": "consumer_electronics",
+      "status": "pending_collector"
+    },
+    {
+      "name": "LG Electronics",
+      "universe": "expanded",
+      "tier": "consumer_electronics",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Garmin",
+      "universe": "expanded",
+      "tier": "consumer_electronics",
+      "status": "pending_collector"
+    },
+    {
+      "name": "The Trade Desk",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "PubMatic",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Magnite",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Criteo",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "AppLovin",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "ironSource",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "AdRoll",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Taboola",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Outbrain",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Integral Ad Science (IAS)",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "DoubleVerify",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Index Exchange",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "OpenX",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Sharethrough",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Teads",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Verve Group",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "AdTheorent",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Basis Technologies",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Xandr (Microsoft)",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Zeta Global",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Epsilon",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "AppsFlyer",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Branch",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Kochava",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Adjust",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Singular",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Smartly.io",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "StackAdapt",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "FreeWheel (Comcast)",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Cadent",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Simulmedia",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Adform",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Smaato",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "Xaxis (WPP)",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    },
+    {
+      "name": "MiQ",
+      "universe": "expanded",
+      "tier": "adtech",
+      "status": "pending_collector"
+    }
+  ]
+}
