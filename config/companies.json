@@ -67,19 +67,26 @@
       "name": "Moloco",
       "universe": "core",
       "tier": "adtech",
-      "status": "pending_collector"
+      "status": "active_direct",
+      "ats": "greenhouse",
+      "board_token": "moloco",
+      "official_careers_url": "https://job-boards.greenhouse.io/moloco"
     },
     {
       "name": "Harvey",
       "universe": "core",
       "tier": "ai",
-      "status": "pending_collector"
+      "status": "active_direct",
+      "ats": "ashby",
+      "board": "harvey",
+      "official_careers_url": "https://jobs.ashbyhq.com/harvey"
     },
     {
       "name": "Surge AI",
       "universe": "core",
       "tier": "ai_data",
-      "status": "pending_collector"
+      "status": "unsupported_ats",
+      "note": "Uses a custom Notion-based careers page, not Greenhouse/Lever/Ashby"
     },
     {
       "name": "FAR.AI",
@@ -91,7 +98,10 @@
       "name": "Whatnot",
       "universe": "core",
       "tier": "marketplace",
-      "status": "pending_collector"
+      "status": "active_direct_unverified_slug",
+      "ats": "ashby",
+      "board": "whatnot",
+      "official_careers_url": "https://jobs.ashbyhq.com/whatnot"
     },
     {
       "name": "LiveRamp",
